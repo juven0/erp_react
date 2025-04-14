@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { Button } from '@/components/ui/button';
 import { ChevronRight, ChevronUp, Globe, X, ChevronDown, User } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import image from "../assets/images/image1.png"
 
 type SectionId = 'hero' | 'fonctionnalites' | 'avantages' | 'temoignages' | 'contact';
 
@@ -277,7 +278,7 @@ export default function Landing() {
             
             <div className={`relative order-1 lg:order-2 h-[400px] md:h-[500px] lg:h-auto ${getAnimationClass('hero-section', 'fade-left')}`}>
               <div className="bg-purple-400 rounded-lg h-full overflow-hidden">
-                <img src="/api/placeholder/600/800" alt="ERP System" className="w-full h-full object-cover opacity-30" />
+                <img src={image} alt="ERP System" className="w-full h-full object-cover opacity-30" />
                 
                 <div className={`absolute top-4 right-4 bg-white bg-opacity-90 rounded-full px-4 py-2 flex items-center ${getAnimationClass('hero-section', 'fade-in')}`} style={{ transitionDelay: '600ms' }}>
                   <div className="flex -space-x-2 mr-2">
@@ -378,7 +379,7 @@ export default function Landing() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className={getAnimationClass('advantages-section', 'fade-right')}>
               <div className="bg-purple-600 h-72 rounded-lg relative overflow-hidden">
-                <img src="/api/placeholder/500/400" alt="Dashboard demonstration" className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-20" />
+                <img src={image} alt="Dashboard demonstration" className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-20" />
                 <div className="absolute inset-0 flex items-center justify-center">
                   <span className="text-white text-4xl font-bold">Tymo </span>
                 </div>
