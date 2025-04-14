@@ -119,9 +119,7 @@ function LoginForm() {
                 <FormItem className="w-2/3">
                   <div className="flex justify-between items-center">
                     <FormLabel>Mot de passe</FormLabel>
-                    <a href="#" className="text-sm font-medium text-primary hover:underline">
-                      Mot de passe oublié?
-                    </a>
+                    
                   </div>
                   <FormControl>
                     <div className="relative">

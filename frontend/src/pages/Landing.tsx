@@ -373,14 +373,14 @@ export default function Landing() {
       
       <section ref={advantagesRef} id="avantages" className="py-16">
         <div className="container mx-auto px-4">
-          <h2 className={`text-2xl md:text-3xl font-bold text-center mb-12 ${getAnimationClass('advantages-section', 'fade-up')}`}>Pourquoi choisir Tymo Madagascar</h2>
+          <h2 className={`text-2xl md:text-3xl font-bold text-center mb-12 ${getAnimationClass('advantages-section', 'fade-up')}`}>Pourquoi choisir Tymo </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className={getAnimationClass('advantages-section', 'fade-right')}>
               <div className="bg-purple-600 h-72 rounded-lg relative overflow-hidden">
                 <img src="/api/placeholder/500/400" alt="Dashboard demonstration" className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-20" />
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-white text-4xl font-bold">Tymo Madagascar</span>
+                  <span className="text-white text-4xl font-bold">Tymo </span>
                 </div>
               </div>
             </div>
